@@ -10,7 +10,6 @@ const LeftDiv = styled.div`
   display: flex;
   align-items: center;
 `;
-
 const SnoDiv = styled.div`
   margin: 4px;
   padding: 1px;
