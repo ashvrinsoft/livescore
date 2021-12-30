@@ -1,0 +1,57 @@
+.usercard{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: auto;
+    padding: 4px;
+    border: 1px solid rgb(134, 123, 123);
+    animation: fadeInAnimation ease 0.8s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.5;
+        background-color: rgb(255, 254, 188);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.left{
+    display: flex;
+    align-items: center;
+  
+}
+.sno{
+    margin: 4px;
+    padding: 1px;
+    border-radius: 50%;
+    background-color: yellow;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    color: gray;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+}
+.avatar{
+    margin: 4px;
+    color: white;
+    border-radius: 50%;
+    background-color: orange;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name{
+    margin: 4px;
+}
+.score{
+    color: rgb(65, 94, 223);
+}
